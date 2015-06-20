@@ -16,7 +16,7 @@
 		function post(data) {
 			try {
 				var xhr = new XMLHttpRequest();
-				xhr.open ('POST', location.href, true);
+				xhr.open ('POST', location.href + 'guessinggame', true);
 				xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 				xhr.onload = function(){ 
 					var json = JSON.parse(xhr.responseText);

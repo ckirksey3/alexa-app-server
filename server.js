@@ -15,5 +15,10 @@ require('require-dir')('./apps');
 // Attach all the Alex apps to express
 alexa.bootstrap(app,'/');
 
+// index page 
+app.get('/', function(req, res) {
+    res.render('test');
+});
+
 app.listen(PORT);
 console.log("Listening on port "+PORT);
