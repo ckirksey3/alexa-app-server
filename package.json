@@ -6,10 +6,13 @@
   "author": "Matt Kruse",
   "dependencies": {
     "alexa-app": "^2.0.0",
+    "node-alexa": "git://github.com/robrighter/node-alexa.git",
     "body-parser": "~1.0.1",
     "ejs": "~0.7.1",
     "express": "~4.0.0",
-    "require-dir": "^0.3.0"
+    "require-dir": "^0.3.0",
+    "redis": "^0.12.1",
+    "url": "^1.3.2"
   },
   "devDependencies": {
     "supervisor": "^0.6.0"
