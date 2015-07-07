@@ -5,7 +5,7 @@
   "main": "server.js",
   "author": "Matt Kruse",
   "dependencies": {
-    "alexa-app": "^1.0.1",
+    "alexa-app": "^2.0.0",
     "body-parser": "~1.0.1",
     "ejs": "~0.7.1",
     "express": "~4.0.0",
