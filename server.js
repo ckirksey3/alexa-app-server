@@ -48,7 +48,7 @@ echoApp.on(echoApp.TYPE_LAUNCH_REQUEST, function(callback, userId, sessionInfo, 
 });
 
 echoApp.on(echoApp.TYPE_INTENT_REQUEST, function(callback, userId, sessionInfo, userObject, intent){
-    if(intent.name === 'Hello'){
+    if(intent.name === 'Bible'){
         var shouldEndSession = true;
         var speechText = "I heard the command " + intent.name;
         var cardTitle = "Test Echo App Launch Request";
